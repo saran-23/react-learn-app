@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import CommentDetail from './CommentDetail';
+
 const App = () =>{
     return(
 
             <div className="ui container comments">
             
-                <CommentDetail author='saran' timeAgo="Today at 4:45AM" />
-                <CommentDetail author='sam' timeAgo="Today at 7:25AM"/>
-                <CommentDetail author='alex' timeAgo="Yesterday at 1:45AM"/>
+                <CommentDetail author='saran' timeAgo="Today at 4:45AM" imageSrc='https://source.unsplash.com/random' Desc=" the first comment" />
+                <CommentDetail author='sam' timeAgo="Today at 7:25AM" imageSrc='https://source.unsplash.com/random' Desc="I am  the Second comment" />
+                <CommentDetail author='alex' timeAgo="Yesterday at 1:45AM" imageSrc='https://source.unsplash.com/random' Desc="i am the last comment" />
             </div>
             
             

@@ -11,7 +11,7 @@ const App = () => {
                 <div>
                 <h4>Warning!</h4>
                 Are You Sure You Want To Do This?
-                </div>
+                </div>                                                                              
             </ApprovalCard>
             <ApprovalCard>
                 <CommentDetail author='saran' timeAgo="Today at 4:45AM" imageSrc='https://source.unsplash.com/random' Desc=" nice blog1" />
